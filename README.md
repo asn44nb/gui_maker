@@ -1,19 +1,21 @@
 # GUI Maker
 
-Minecraft Datapack for JE v1.21.5
+Minecraft Java Edition v1.21.5 için Veri Paketi (Datapack)
 
-## 何ができるの？
+## Bu Paket Ne İşe Yarar?
 
-エンダーチェストを使ってGUIを作成できるようになるデータパックです。
+Ender Sandıklarını (Ender Chest) kullanarak tamamen özelleştirilebilir arayüzler (GUI) oluşturmanıza olanak tanıyan teknik bir veri paketidir.
 
-## 導入方法
+## Kurulum
 
-一般的なマインクラフトデータパックと同様にdatapacksフォルダ内にこのデータパックを入れれば導入完了です。
+1. Bu veri paketini indirin.
+2. Dünya klasörünüzün içindeki `datapacks` klasörüne yerleştirin.
+3. Oyun içinde `/reload` komutunu yazın veya dünyayı yeniden başlatın.
 
-## 使い方
+## Kullanım
 
-[wiki](https://github.com/rukky321/gui_maker/wiki)見てね。
+Ayrıntılı rehber ve dökümantasyon için [wiki](https://github.com/rukky321/gui_maker/wiki) sayfasını ziyaret edin.
 
-## ライセンス
+## Lisans
 
-このリポジトリでは、[CC0-1.0 License](https://github.com/rukky321/gui_maker/blob/main/LICENSE)が適用されます。
+Bu depo [CC0-1.0 Lisansı](https://github.com/rukky321/gui_maker/blob/main/LICENSE) altında lisanslanmıştır.
