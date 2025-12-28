@@ -10,7 +10,7 @@ execute unless data storage gui_maker: args.run_trigger run tellraw @a {"color":
 # triggerコマンドを実行
 execute if data storage gui_maker: args.run_trigger.trigger_function run data modify storage gui_maker: tmp.run_trigger.function set from storage gui_maker: args.run_trigger.trigger_function 
 execute if data storage gui_maker: args.run_trigger.trigger_function run function gui_maker:system/run_function with storage gui_maker: tmp.run_trigger
-execute unless data storage gui_maker: args.run_trigger.trigger_function run tellraw @a {"color":"red","text":"Değişken bulunamadı! (gui_maker:system/run_trigger / gui_maker.trigger_function)"}
+execute unless data storage gui_maker: args.run_trigger.trigger_function run function gui_maker:system/run_function with storage gui_maker: tmp.run_trigger
 
 # 音を鳴らす
 execute if data storage gui_maker: args.run_trigger.sound_function run data modify storage gui_maker: tmp.run_trigger.function set from storage gui_maker: args.run_trigger.sound_function 
