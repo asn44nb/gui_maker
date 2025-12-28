@@ -19,7 +19,7 @@ execute as @e[tag=gui_maker.container,type=chest_minecart] run data modify entit
 item replace entity @s weapon.offhand from entity @e[tag=gui_maker.container,type=chest_minecart, limit=1] container.0
 
 # 登録メッセージ
-$tellraw @s "オフハンドアイテムにクリック時$(function)を実行するように設定しました"
+$tellraw @s "Sol eldeki öğeye, tıklandığında $(function) fonksiyonunu çalıştıracak şekilde ayarlandı"
 
 # コンテナをキル
 execute as @e[tag=gui_maker.container,type=chest_minecart] run data modify entity @s Items set value []
