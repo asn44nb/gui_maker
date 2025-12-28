@@ -14,7 +14,7 @@ Ender Sandıklarını (Ender Chest) kullanarak tamamen özelleştirilebilir aray
 
 ## Kullanım
 
-Ayrıntılı rehber ve dökümantasyon için [wiki](https://github.com/rukky321/gui_maker/wiki) sayfasını ziyaret edin.
+Ayrıntılı rehber ve dökümantasyon için [wiki](https://github.com/asn44nb/gui_maker/wiki) sayfasını ziyaret edin.
 
 ## Lisans
 
