@@ -17,8 +17,8 @@ execute if data entity @s equipment.offhand.components.minecraft:custom_data.gui
 execute if entity @s[tag=gui_maker.remove_display_tag] run item modify entity @s weapon.offhand gui_maker:set_display_only_0
 execute if entity @s[tag=!gui_maker.remove_display_tag] run item modify entity @s weapon.offhand gui_maker:set_display_only_1
 
-tellraw @s[tag=gui_maker.remove_display_tag] "オフハンドアイテムのdisplayタグを消去しました"
-tellraw @s[tag=!gui_maker.remove_display_tag] "オフハンドアイテムにdisplayタグを付与しました"
+tellraw @s[tag=gui_maker.remove_display_tag] "Sol eldeki öğenin display etiketi silindi"
+tellraw @s[tag=!gui_maker.remove_display_tag] "Sol eldeki öğeye display etiketi eklendi"
 
 # リセット
 tag @s[tag=gui_maker.remove_display_tag] remove gui_maker.remove_display_tag
